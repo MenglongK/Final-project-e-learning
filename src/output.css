@@ -573,9 +573,6 @@
   .justify-center {
     justify-content: center;
   }
-  .justify-items-center {
-    justify-items: center;
-  }
   .gap-0\.5 {
     gap: calc(var(--spacing) * 0.5);
   }
