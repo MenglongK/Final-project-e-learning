@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STUDY SMART</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/public/imag/Asset 1.svg" />
+    <title>STUDENT SMART</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+    <script>
+      document.documentElement.classList.toggle(
+        "dark",
+        localStorage.theme === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+      );
+    </script>
+  </head>
+  <body class="bg-gray-100">
+    <main
+      class="w-full h-screen flex flex-col items-center justify-center px-4"
+    >
+      <div class="max-w-sm w-full text-gray-600 space-y-5">
+        <div class="text-center pb-8">
+          <a href="../index.html"
+            ><img src="../public/imag/Asset 1.svg" width="150" class="mx-auto"
+          /></a>
+          <div class="mt-5">
+            <h3 class="text-gray-800 text-2xl font-bold sm:text-3xl">
+              Log in to your account
+            </h3>
+          </div>
+        </div>
+        <form onSubmit="event.preventDefault()" class="space-y-5">
+          <div>
+            <label class="font-medium"> Email </label>
+            <input
+              type="email"
+              required
+              class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-blue-600 shadow-sm rounded-lg"
+            />
+          </div>
+          <div>
+            <label class="font-medium"> Password </label>
+            <input
+              type="password"
+              required
+              class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-blue-600 shadow-sm rounded-lg"
+            />
+          </div>
+          <div class="flex items-center justify-between text-sm">
+            <div class="flex items-center gap-x-3">
+              <input
+                type="checkbox"
+                id="remember-me-checkbox"
+                class="checkbox-item peer hidden"
+              />
+              <label
+                for="remember-me-checkbox"
+                class="relative flex w-5 h-5 bg-white peer-checked:bg-blue-600 rounded-md border ring-offset-2 ring-blue-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
+              ></label>
+              <span class="text-[#161179]">Remember me</span>
+            </div>
+            <a href="#" class="text-center text-[#161179] hover:text-blue-500"
+              >Forgot password?</a
+            >
+          </div>
+          <button
+            class="w-full px-4 py-2 text-white font-medium bg-[#161179] hover:bg-blue-500 active:bg-blue-500 rounded-lg duration-150"
+          >
+            Sign in
+          </button>
+        </form>
+        <button
+          class="w-full flex items-center justify-center gap-x-3 py-2.5 border rounded-lg text-sm font-medium hover:bg-gray-50 duration-150 active:bg-gray-100"
+        >
+          <img
+            src="https://raw.githubusercontent.com/sidiDev/remote-assets/7cd06bf1d8859c578c2efbfda2c68bd6bedc66d8/google-icon.svg"
+            alt="Google"
+            class="w-5 h-5"
+          />
+          Continue with Google
+        </button>
+        <p class="text-center">
+          Don't have an account?
+          <a
+            href="./Register.html"
+            class="font-medium text-[#161179] hover:text-blue-500"
+            >Sign up</a
+          >
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

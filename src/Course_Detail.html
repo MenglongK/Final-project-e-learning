@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="dark:bg-[#213555] bg-gray-100">
+    <header
+      class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full bg-[#161179] sticky top-0"
+    >
+      <nav
+        class="relative w-full md:flex md:items-center md:justify-between md:gap-3 mx-auto px-4 sm:px-6 lg:px-8 py-3"
+      >
+        <div
+          class="flex items-center justify-between duration-500 lg:hover:translate-y-[-5px] min-md:pl-5"
+        >
+          <a
+            class="flex-none font-semibold text-2xl text-white hover:text-gray-200 focus:outline-hidden focus:opacity-80 w-[120px]"
+            href="../index.html"
+            aria-label="Brand"
+          >
+            <svg
+              id="Layer_2"
+              data-name="Layer 2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 542.25 230.68"
+            >
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: white;
+                    stroke-width: 0px;
+                  }
+
+                  .cls-2 {
+                    font-family: MyriadPro-Regular, "Myriad Pro";
+                    font-size: 12px;
+                  }
+
+                  .cls-2,
+                  .cls-3 {
+                    fill: white;
+                  }
+
+                  .cls-4 {
+                    fill: none;
+                    stroke: white;
+                    stroke-miterlimit: 10;
+                    stroke-width: 5.67px;
+                  }
+
+                  .cls-3 {
+                    font-family: KhPenWappathor, "Kh Pen Wappathor";
+                    font-size: 73.7px;
+                  }
+                </style>
+              </defs>
+              <g id="Layer_1-2" data-name="Layer 1">
+                <g>
+                  <circle class="cls-4" cx="115.34" cy="115.34" r="107.88" />
+                  <circle class="cls-4" cx="115.34" cy="115.34" r="90.28" />
+                  <circle class="cls-4" cx="115.34" cy="115.34" r="112.51" />
+                  <text />
+                  <path
+                    class="cls-1"
+                    d="M68.65,81.37l-3.71,2.78c-4.25,3.18-10.3.15-10.3-5.16v-19.7c0-3.57,2.9-6.45,6.46-6.44l47.96.16c3.55.01,6.42,2.89,6.42,6.44v22.06c0,1.91-.85,3.73-2.32,4.95l-39.61,32.98c-1.47,1.22-2.32,3.04-2.32,4.95v14.2c0,5.48,6.4,8.45,10.59,4.93l14.77-12.44c1.45-1.22,2.29-3.03,2.29-4.93v-6.32c0-1.96.89-3.82,2.43-5.04l3.71-2.95c4.22-3.36,10.45-.35,10.45,5.04v15.66c0,1.94-.88,3.78-2.39,5l-47.96,38.87c-4.21,3.41-10.5.42-10.5-5v-51.67c0-1.85.8-3.61,2.19-4.84l39.87-35.08c1.39-1.22,2.19-2.98,2.19-4.84v-3.07c0-3.56-2.88-6.44-6.44-6.44h-14.77c-3.56,0-6.44,2.88-6.44,6.44v4.31c0,2.03-.96,3.94-2.58,5.16Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="M162.91,81.37l3.47,2.78c3.97,3.18,9.62.15,9.62-5.16v-19.7c0-3.57-2.7-6.45-6.03-6.44l-44.78.16c-3.31.01-5.99,2.89-5.99,6.44v22.06c0,1.91.79,3.73,2.17,4.95l36.98,32.98c1.37,1.22,2.17,3.04,2.17,4.95v14.2c0,5.48-5.98,8.45-9.89,4.93l-13.79-12.44c-1.36-1.22-2.14-3.03-2.14-4.93v-6.32c0-1.96-.84-3.82-2.27-5.04l-3.47-2.95c-3.94-3.36-9.76-.35-9.76,5.04v15.66c0,1.94.82,3.78,2.23,5l44.78,38.87c3.93,3.41,9.8.42,9.8-5v-51.67c0-1.85-.74-3.61-2.04-4.84l-37.23-35.08c-1.3-1.22-2.04-2.98-2.04-4.84v-3.07c0-3.56,2.69-6.44,6.01-6.44h13.79c3.32,0,6.01,2.88,6.01,6.44v4.31c0,2.03.89,3.94,2.41,5.16Z"
+                  />
+                  <text />
+                  <text class="cls-2" transform="translate(106.51 20.1)">
+                    <tspan x="0" y="0">Dev</tspan>
+                  </text>
+                  <text class="cls-2" transform="translate(107.51 218.1)">
+                    <tspan x="0" y="0">Dev</tspan>
+                  </text>
+                  <text
+                    class="cls-2"
+                    transform="translate(210.9 99.67) rotate(90)"
+                  >
+                    <tspan x="0" y="0">Dev</tspan>
+                  </text>
+                  <text
+                    class="cls-2"
+                    transform="translate(20.65 119.59) rotate(-88.31)"
+                  >
+                    <tspan x="0" y="0">Dev</tspan>
+                  </text>
+                  <text class="cls-3" transform="translate(250.14 117.57)">
+                    <tspan x="0" y="0">STUDY</tspan>
+                    <tspan x="0" y="62.36">SMART</tspan>
+                  </text>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <div class="md:hidden">
+            <button
+              type="button"
+              class="hs-collapse-toggle relative size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-white/50 text-white hover:bg-white/10 focus:outline-hidden focus:bg-white/10 disabled:opacity-50 disabled:pointer-events-none"
+              id="hs-base-header-collapse"
+              aria-expanded="false"
+              aria-controls="hs-base-header"
+              aria-label="Toggle navigation"
+              data-hs-collapse="#hs-base-header"
+            >
+              <svg
+                class="hs-collapse-open:hidden size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="3" x2="21" y1="6" y2="6" />
+                <line x1="3" x2="21" y1="12" y2="12" />
+                <line x1="3" x2="21" y1="18" y2="18" />
+              </svg>
+              <svg
+                class="hs-collapse-open:block shrink-0 hidden size-4"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+          </div>
+        </div>
+        <div
+          id="hs-base-header"
+          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
+          aria-labelledby="hs-base-header-collapse"
+        >
+          <div
+            class="overflow-hidden overflow-y-auto max-h-[75vh] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-track]:bg-gray-100 [&::-webkit-scrollbar-thumb]:bg-gray-300 dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500"
+          >
+            <div
+              class="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1"
+            >
+              <a
+                class="p-2 flex items-center text-[16px] text-white hover:text-gray-200 focus:outline-hidden focus:text-white duration-500 lg:hover:translate-y-[-5px]"
+                href="./Courses.html"
+                aria-current="page"
+              >
+                <svg
+                  class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+                  <path
+                    d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                  />
+                </svg>
+                Courses
+              </a>
+              <a
+                class="p-2 flex items-center text-[16px] text-white hover:text-gray-200 focus:outline-hidden focus:text-white duration-500 lg:hover:translate-y-[-5px]"
+                href="./Contact_Us.html"
+              >
+                <svg
+                  class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                  <circle cx="12" cy="7" r="4" />
+                </svg>
+                Contact
+              </a>
+              <a
+                class="p-2 flex items-center text-[16px] text-white hover:text-gray-200 focus:outline-hidden focus:text-white duration-500 lg:hover:translate-y-[-5px]"
+                href="./About_Us.html"
+              >
+                <svg
+                  class="shrink-0 size-4 me-3 md:me-2 block md:hidden"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 12h.01" />
+                  <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                  <path d="M22 13a18.15 18.15 0 0 1-20 0" />
+                  <rect width="20" height="14" x="2" y="6" rx="2" />
+                </svg>
+                About
+              </a>
+              <div
+                class="relative flex flex-wrap items-center gap-x-1.5 md:ps-2.5 mt-1 md:mt-0 md:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-white/30 before:-translate-y-1/2"
+              >
+                <a
+                  class="p-2 w-full flex items-center text-[16px] text-white hover:text-gray-200 focus:outline-hidden focus:text-white duration-500 lg:hover:translate-y-[-5px]"
+                  href="./Login.html"
+                >
+                  <svg
+                    class="shrink-0 size-4 me-3 md:me-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                    <circle cx="12" cy="7" r="4" />
+                  </svg>
+                  Log in
+                </a>
+              </div>
+              <div
+                class="flex min-md:px-5 max-sm:py-3 duration-500 lg:hover:scale-105"
+              >
+                <button
+                  id="isLightOrAuto"
+                  type="button"
+                  class="hs-dark-mode-active:hidden block hs-dark-mode font-medium text-white rounded-full hover:bg-white hover:text-gray-800 focus:outline-hidden focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+                  data-hs-theme-click-value="dark"
+                >
+                  <span
+                    class="group inline-flex shrink-0 justify-center items-center size-9"
+                  >
+                    <svg
+                      class="shrink-0 size-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    </svg>
+                  </span>
+                </button>
+                <button
+                  id="isLightOrAuto"
+                  type="button"
+                  class="hs-dark-mode-active:block hidden hs-dark-mode font-medium text-white rounded-full hover:bg-white hover:text-gray-800 focus:outline-hidden focus:bg-gray-200 dark:text-neutral-200 dark:hover:bg-white dark:focus:bg-white"
+                  data-hs-theme-click-value="light"
+                >
+                  <span
+                    class="group inline-flex shrink-0 justify-center items-center size-9"
+                  >
+                    <svg
+                      class="shrink-0 size-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="4"></circle>
+                      <path d="M12 2v2"></path>
+                      <path d="M12 20v2"></path>
+                      <path d="m4.93 4.93 1.41 1.41"></path>
+                      <path d="m17.66 17.66 1.41 1.41"></path>
+                      <path d="M2 12h2"></path>
+                      <path d="M20 12h2"></path>
+                      <path d="m6.34 17.66-1.41 1.41"></path>
+                      <path d="m19.07 4.93-1.41 1.41"></path>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="max-w-[85rem] px-4 pt-10 sm:px-6 lg:px-8 lg:pt-14 mx-auto"
+      >
+        <div
+          class="bg-white dark:bg-gray-800 p-4 rounded-md md:flex"
+          data-aos="fade-right"
+        >
+          <div>
+            <h2
+              class="lg:text-4xl text-2xl font-bold text-[#161179] tracking-[3px] dark:text-white"
+            >
+              FLUTTER MOBILE DEVELOPMENT
+            </h2>
+            <p class="text-justify py-3 dark:text-gray-100 text-gray-700">
+              Flutter course is designed to develop multi-platform like iOS and
+              Android App, Web, Desktop apps like MacOS, Windows and Linux using
+              one code base. We also include with UI / UX design concept.
+              Moreover, integrate with third-party libraries and other mobile
+              functionality to make your app more professional.
+            </p>
+            <h3
+              class="lg:text-2xl text-xl font-bold text-[#161179] tracking-[3px] pb-2 dark:text-white"
+            >
+              COURSE OFFER
+            </h3>
+            <ol
+              class="pl-4 pb-2 ml-4 list-decimal dark:text-white text-gray-700"
+            >
+              <li>Mobile Concept</li>
+              <li>Dart Programming</li>
+              <li>Details on Widget</li>
+              <li>UI / UX Design</li>
+              <li>Stateless & Stateful</li>
+              <li>Server Communication</li>
+              <li>State Mangement</li>
+              <li>Third-Party Libraries</li>
+              <li>Apps Released</li>
+              <li>Final Project</li>
+            </ol>
+          </div>
+          <img
+            class="p-5 w-[255px] h-[255px] rounded-t-lg m-auto"
+            src="https://api.istad.co/media/image/899bac49-e47c-406c-abb2-30ad0b498f88.png"
+            alt="product image"
+          />
+        </div>
+        <div data-aos="fade-right">
+          <h3
+            class="lg:text-2xl text-xl font-bold text-[#161179] tracking-[3px] p-3 dark:text-white"
+          >
+            COURSES OUTLINE
+          </h3>
+          <div class="space-y-5">
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-1"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-1"
+              data-hs-collapse="#hs-basic-collapse-heading-1"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-1"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  GETTING START WITH FLUTTER
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-1"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-1"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Flutter Overview</li>
+                    <li>Environment Setup</li>
+                    <li>IDE Installation</li>
+                    <li>First Project</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-2"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-2"
+              data-hs-collapse="#hs-basic-collapse-heading-2"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-2"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  DART LANGUAGE SYNTAX
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-2"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-2"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Basic Language Syntax</li>
+                    <li>Data Type & Operator</li>
+                    <li>Null Safety</li>
+                    <li>Conditional & Control Flow</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-3"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-3"
+              data-hs-collapse="#hs-basic-collapse-heading-3"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-3"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px] text-start"
+                >
+                  OBJECT OKRIENTED PROGRAMMING IN DART
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-3"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-3"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Function</li>
+                    <li>Class & Constructor</li>
+                    <li>Inheritance</li>
+                    <li>Setter & Getter</li>
+                    <li>Abstract Class and Method</li>
+                    <li>Interfaces & Maxin</li>
+                    <li>Callback Function</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-4"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-4"
+              data-hs-collapse="#hs-basic-collapse-heading-4"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-4"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  COLLECTION
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-4"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-4"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>List</li>
+                    <li>Set</li>
+                    <li>Map</li>
+                    <li>Lab: Classwork</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-5"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-5"
+              data-hs-collapse="#hs-basic-collapse-heading-5"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-5"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  ASYNCHRONOUS IN FLUTTER
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-5"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-5"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Asynchronous in Flutter</li>
+                    <li>Async & Await</li>
+                    <li>FutterBuilder Widget</li>
+                    <li>Fetching Network Data</li>
+                    <li>Stream</li>
+                    <li>Model Class Mapping</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-6"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-6"
+              data-hs-collapse="#hs-basic-collapse-heading-6"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-6"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  LOCAL STORAGE
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-6"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-6"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>SQLite</li>
+                    <li>File</li>
+                    <li>SharePreferences</li>
+                    <li>Lab: Read Data from RESTful APIs</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-7"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-7"
+              data-hs-collapse="#hs-basic-collapse-heading-7"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-7"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  DETAILS ON WIDGET
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-7"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-7"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Scaffold</li>
+                    <li>Text & TextField</li>
+                    <li>Color & Fonts</li>
+                    <li>Image & Assets</li>
+                    <li>Button & Icons</li>
+                    <li>Container & Padding</li>
+                    <li>Responsive: LayoutBuilder</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-8"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-8"
+              data-hs-collapse="#hs-basic-collapse-heading-8"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-8"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  STATELESS & STATEFUL
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-8"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-8"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Stateless widget and hot reload</li>
+                    <li>Stateful Usage</li>
+                    <li>Event Listener</li>
+                    <li>Widget Lifecycle</li>
+                    <li>Error Handling</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-9"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-9"
+              data-hs-collapse="#hs-basic-collapse-heading-9"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-9"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  WIDGET WITH CHILDREN
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-9"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-9"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Row & Column</li>
+                    <li>Stack</li>
+                    <li>SingleChildScrollView</li>
+                    <li>List View & Grid View</li>
+                    <li>Navigation</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-10"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-10"
+              data-hs-collapse="#hs-basic-collapse-heading-10"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-10"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  UI / UX DESIGN
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-10"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-10"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>How important of UX / UI</li>
+                    <li>Rule and Principle</li>
+                    <li>Minimalist Design</li>
+                    <li>Thing to avoid</li>
+                    <li>Lab: Homework</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-11"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-11"
+              data-hs-collapse="#hs-basic-collapse-heading-11"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-11"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  SERVER COMMUNICATION
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-11"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-11"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Object Mapping</li>
+                    <li>Read data from Server</li>
+                    <li>Write Data to Server</li>
+                    <li>Upload file</li>
+                    <li>Lab: Project</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-12"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-12"
+              data-hs-collapse="#hs-basic-collapse-heading-12"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-12"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  PRESENTATION
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-12"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-12"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Lesson Recap</li>
+                    <li>Slide Preparation</li>
+                    <li>CRUD Operation Network Data</li>
+                    <li>Enhance UI / UX Design concept</li>
+                    <li>Lab: Presentation</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-13"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-13"
+              data-hs-collapse="#hs-basic-collapse-heading-13"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-13"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  STATE MANAGEMENT
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-13"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-13"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Overview</li>
+                    <li>Data Flow</li>
+                    <li>Project Structure</li>
+                    <li>Provider / MVVM</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-14"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-14"
+              data-hs-collapse="#hs-basic-collapse-heading-14"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-14"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  THIRD-PARTY LIBRARIES
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-14"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-14"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Firebases</li>
+                    <li>Google Maps</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+            <button
+              type="button"
+              class="hs-collapse-toggle px-4 py-2 rounded-md bg-white dark:bg-gray-800 text-black focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none w-full"
+              id="hs-basic-collapse-15"
+              aria-expanded="false"
+              aria-controls="hs-basic-collapse-heading-15"
+              data-hs-collapse="#hs-basic-collapse-heading-15"
+            >
+              <div class="flex items-baseline">
+                <i
+                  id="hs-basic-collapse-15"
+                  class="fa fa-angle-right text-[#161179] font-extrabold text-lg dark:text-red-600 hs-collapse-open:rotate-90"
+                ></i>
+                <p
+                  class="uppercase tracking-[3px] px-4 dark:text-white text-[16px] max-sm:text-[12px]"
+                >
+                  APP SUBMISSION
+                </p>
+              </div>
+              <div
+                id="hs-basic-collapse-heading-15"
+                class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-200"
+                aria-labelledby="hs-basic-collapse-15"
+              >
+                <div class="py-5 px-8 bg-white dark:bg-gray-800">
+                  <ul
+                    class="list-disc dark:text-white text-gray-700 text-start"
+                  >
+                    <li>Build to iOS</li>
+                    <li>Build to Android</li>
+                    <li>Build to Web</li>
+                    <li>Build to MacOS</li>
+                    <li>Build to Windows</li>
+                  </ul>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <br />
+    <br />
+    <br />
+    <footer
+      class="bg-[#161179] pt-3 text-white text-center text-sm md:text-left"
+    >
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex flex-wrap justify-center">
+          <!-- Logo and Quote -->
+          <div
+            class="w-full md:w-1/4 mb-6 flex flex-col items-center md:items-start"
+          >
+            <br />
+            <br />
+            <br />
+            <a
+              class="flex-none font-semibold text-2xl text-white hover:text-gray-200 focus:outline-hidden focus:opacity-80 w-[120px]"
+              href="../index.html"
+              aria-label="Brand"
+            >
+              <svg
+                id="Layer_2"
+                data-name="Layer 2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 542.25 230.68"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: white;
+                      stroke-width: 0px;
+                    }
+
+                    .cls-2 {
+                      font-family: MyriadPro-Regular, "Myriad Pro";
+                      font-size: 12px;
+                    }
+
+                    .cls-2,
+                    .cls-3 {
+                      fill: white;
+                    }
+
+                    .cls-4 {
+                      fill: none;
+                      stroke: white;
+                      stroke-miterlimit: 10;
+                      stroke-width: 5.67px;
+                    }
+
+                    .cls-3 {
+                      font-family: KhPenWappathor, "Kh Pen Wappathor";
+                      font-size: 73.7px;
+                    }
+                  </style>
+                </defs>
+                <g id="Layer_1-2" data-name="Layer 1">
+                  <g>
+                    <circle class="cls-4" cx="115.34" cy="115.34" r="107.88" />
+                    <circle class="cls-4" cx="115.34" cy="115.34" r="90.28" />
+                    <circle class="cls-4" cx="115.34" cy="115.34" r="112.51" />
+                    <text />
+                    <path
+                      class="cls-1"
+                      d="M68.65,81.37l-3.71,2.78c-4.25,3.18-10.3.15-10.3-5.16v-19.7c0-3.57,2.9-6.45,6.46-6.44l47.96.16c3.55.01,6.42,2.89,6.42,6.44v22.06c0,1.91-.85,3.73-2.32,4.95l-39.61,32.98c-1.47,1.22-2.32,3.04-2.32,4.95v14.2c0,5.48,6.4,8.45,10.59,4.93l14.77-12.44c1.45-1.22,2.29-3.03,2.29-4.93v-6.32c0-1.96.89-3.82,2.43-5.04l3.71-2.95c4.22-3.36,10.45-.35,10.45,5.04v15.66c0,1.94-.88,3.78-2.39,5l-47.96,38.87c-4.21,3.41-10.5.42-10.5-5v-51.67c0-1.85.8-3.61,2.19-4.84l39.87-35.08c1.39-1.22,2.19-2.98,2.19-4.84v-3.07c0-3.56-2.88-6.44-6.44-6.44h-14.77c-3.56,0-6.44,2.88-6.44,6.44v4.31c0,2.03-.96,3.94-2.58,5.16Z"
+                    />
+                    <path
+                      class="cls-1"
+                      d="M162.91,81.37l3.47,2.78c3.97,3.18,9.62.15,9.62-5.16v-19.7c0-3.57-2.7-6.45-6.03-6.44l-44.78.16c-3.31.01-5.99,2.89-5.99,6.44v22.06c0,1.91.79,3.73,2.17,4.95l36.98,32.98c1.37,1.22,2.17,3.04,2.17,4.95v14.2c0,5.48-5.98,8.45-9.89,4.93l-13.79-12.44c-1.36-1.22-2.14-3.03-2.14-4.93v-6.32c0-1.96-.84-3.82-2.27-5.04l-3.47-2.95c-3.94-3.36-9.76-.35-9.76,5.04v15.66c0,1.94.82,3.78,2.23,5l44.78,38.87c3.93,3.41,9.8.42,9.8-5v-51.67c0-1.85-.74-3.61-2.04-4.84l-37.23-35.08c-1.3-1.22-2.04-2.98-2.04-4.84v-3.07c0-3.56,2.69-6.44,6.01-6.44h13.79c3.32,0,6.01,2.88,6.01,6.44v4.31c0,2.03.89,3.94,2.41,5.16Z"
+                    />
+                    <text />
+                    <text class="cls-2" transform="translate(106.51 20.1)">
+                      <tspan x="0" y="0">Dev</tspan>
+                    </text>
+                    <text class="cls-2" transform="translate(107.51 218.1)">
+                      <tspan x="0" y="0">Dev</tspan>
+                    </text>
+                    <text
+                      class="cls-2"
+                      transform="translate(210.9 99.67) rotate(90)"
+                    >
+                      <tspan x="0" y="0">Dev</tspan>
+                    </text>
+                    <text
+                      class="cls-2"
+                      transform="translate(20.65 119.59) rotate(-88.31)"
+                    >
+                      <tspan x="0" y="0">Dev</tspan>
+                    </text>
+                    <text class="cls-3" transform="translate(250.14 117.57)">
+                      <tspan x="0" y="0">STUDY</tspan>
+                      <tspan x="0" y="62.36">SMART</tspan>
+                    </text>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Learn More -->
+          <div class="w-full md:w-1/4 mb-6">
+            <p class="font-bold mb-2">Learn More</p>
+            <ul class="space-y-1">
+              <li>
+                <a href="../index.html" class="text-white md:hover:underline"
+                  >Home Page</a
+                >
+              </li>
+              <li>
+                <a href="./Courses.html" class="text-white md:hover:underline"
+                  >Course</a
+                >
+              </li>
+              <li>
+                <a href="./About_Us.html" class="text-white md:hover:underline"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Contact Us -->
+          <div class="w-full md:w-1/4 mb-6">
+            <p class="font-bold mb-2">Contact Us</p>
+            <ul class="space-y-1">
+              <li class="text-white md:hover:underline">
+                <a href="tel:(+855) 95-990-910" target="_blank"
+                  >(+855) 95-990-910</a
+                >
+              </li>
+              <li class="text-white md:hover:underline">
+                <a href="tel:(+855) 93-990-910" target="_blank"
+                  >(+855) 93-990-910</a
+                >
+              </li>
+            </ul>
+            <div class="mt-3 space-x-4">
+              <a
+                href="https://t.me/istadckh"
+                target="_blank"
+                class="text-white md:hover:underline"
+              >
+                <i class="fab fa-telegram pr-1"></i>Telegram
+              </a>
+              <a
+                href="https://www.youtube.com/@istad7665"
+                target="_blank"
+                class="text-white md:hover:underline"
+              >
+                <i class="fab fa-youtube pr-1"></i>YouTube
+              </a>
+            </div>
+          </div>
+
+          <!-- Facebook Embed -->
+          <div class="w-full md:w-1/4 mb-6">
+            <p class="font-bold mb-2">Follow Us</p>
+            <div class="flex max-sm:justify-center">
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fweb.facebook.com%2Fistad.co&tabs=timeline&width=200&height=90&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                style="border: none; overflow: hidden"
+                width="200"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-t border-white opacity-50 mt-4" />
+        <p class="text-center mt-2">
+          © <span>2025</span> STUDY SMART | All Rights Reserved
+        </p>
+      </div>
+    </footer>
+    <script src="../node_modules/preline/dist/preline.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 500,
+        once: true,
+      });
+    </script>
+    <script>
+      // const html = document.querySelector("html");
+      const isLightOrAuto =
+        localStorage.getItem("hs_theme") === "light" ||
+        (localStorage.getItem("hs_theme") === "auto" &&
+          !window.matchMedia("(prefers-color-scheme: dark)").matches);
+      const isDarkOrAuto =
+        localStorage.getItem("hs_theme") === "dark" ||
+        (localStorage.getItem("hs_theme") === "auto" &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+      if (isLightOrAuto && html.classList.contains("dark"))
+        html.classList.remove("dark");
+      else if (isDarkOrAuto && html.classList.contains("light"))
+        html.classList.remove("light");
+      else if (isDarkOrAuto && !html.classList.contains("dark"))
+        html.classList.add("dark");
+      else if (isLightOrAuto && !html.classList.contains("light"))
+        html.classList.add("light");
+
+      document.documentElement.classList.toggle(
+        "dark",
+        localStorage.theme === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+      );
+    </script>
+  </body>
+</html>
